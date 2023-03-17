@@ -1,10 +1,44 @@
-import Theme from "../Types/theme";
-
-const lightTheme: Theme = {
-  color1: "#F6F1F1",
-  color2: "#000000",
-  color3: "#000000",
-  color4: "#000000",
+const lightTheme = {
+  colors: {
+    white: "#FFFFFF",
+    color1: "#CBE4DE",
+    color2: "#19ECF5",
+    color3: "#119DA3",
+    color4: "#2E4F4F",
+    color5: "#2C3333",
+    black: "#000000",
+  },
+  fonts: {
+    font1: "Roboto",
+    font2: "Roboto Mono",
+    font3: "Roboto Slab",
+    font4: "Roboto Condensed",
+    font5: "Roboto Light",
+    font6: "Roboto Thin",
+    font7: "Roboto Black",
+    font8: "Roboto Medium",
+    font9: "Roboto Bold",
+    font10: "Roboto Italic",
+    font11: "Roboto Regular",
+    font12: "Roboto Light Italic",
+    font13: "Roboto Thin Italic",
+    font14: "Roboto Black Italic",
+    font15: "Roboto Medium Italic",
+    font16: "Roboto Bold Italic",
+    font17: "cursive",
+    font18: "fantasy",
+    font19: "monospace",
+    font20: "sans-serif",
+    font21: "serif",
+    font22: "system-ui",
+    font23: "ui-monospace",
+    font24: "ui-serif",
+    font25: "ui-sans-serif",
+    font26: "ui-rounded",
+    font27: "ui-emoji",
+    font28: "ui-symbol",
+    font29: "ui-pictograph",
+  },
 };
 
 export default lightTheme;
